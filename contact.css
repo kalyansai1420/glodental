@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-      border: 1px solid red;
+    
 
 }
 body{
@@ -351,63 +351,15 @@ color: #333;
 .copyrightText p{
     color:#999;
 }
-
+.contact_location >p {
+    max-width: 200px;
+    font-size: 16px;
+    line-height: 22px;
+}
 /*--------------responsive-------------------*/
 
 @media screen and (max-width:1100px){
-    nav{
-        position: fixed;
-        background-color: #1977cc;
-    }
-    nav .logo{
-        float: none;
-        width: 100%;
-        justify-content: center;
-        color: #fff;
-    }
-    .logo >h1{
-        display: none;
-      }
-    nav .links{
-        margin-top: -30px;
-        float: none;
-        position: fixed;
-        z-index: 9;
-        left: 0;
-        right: 0;
-        top: 100px;
-        bottom: 100%;
-        width: auto ;
-        height: auto;
-        flex-direction: column;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.959);
-        background-color: #fff;
-        overflow: hidden;
-        transition: all .5s ease-in-out;
-    }
-    nav .links a{
-        font-size: 20px;
-        color: #1977cc;
-        text-decoration: none;
-
-    }
-     nav .icon-burger{
-         display: block;
-     }
-     nav :checked ~ .links{
-         bottom: 0 !important;
-     } 
-
-     nav :checked ~ .icon-burger .line:nth-child(1){
-         transform: translateY(10px)    rotate(225deg);
-     }
-     nav :checked ~ .icon-burger .line:nth-child(3){
-        transform: translateY(-10px)    rotate(-225deg);
-    }
-    nav :checked ~ .icon-burger .line:nth-child(2){
-       opacity: 0;
-    }
+ 
     .contacts{
         padding-top: 70px;
     }

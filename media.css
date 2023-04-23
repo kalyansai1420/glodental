@@ -1,0 +1,91 @@
+@media screen and (max-width:1024px) {
+    nav .logo{
+        padding: 0px 0px 0px 10px;
+    }
+    .logo h1{
+        display: none;
+    }
+    .logo > h1 {
+        font-size: 0.8em;
+    }
+    nav .links li {
+        list-style: none;
+        display: block;
+        padding: 0.8rem;
+        font-size: 16px;
+    }
+    nav .links li .whatsapp {
+        background-color: #1977cc;
+        color: #fff;
+        padding: 0.8rem;
+    }
+    
+}
+@media screen and (max-width:800px){
+    nav{
+        position: fixed;
+        background-color: #1977cc;
+    }
+    nav .logo{
+        float: none;
+        width: 100%;
+        justify-content: center;
+        color: #fff;
+    }
+    nav .links{
+    
+        float: none;
+        position: fixed;
+        z-index: 9;
+        left: 0;
+        right: 0;
+        top: 65px;
+        bottom: 100%;
+        width: auto ;
+        height: auto;
+        flex-direction: column;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.959);
+        background-color: #fff;
+        overflow: hidden;
+        transition: all .5s ease-in-out;
+    }
+    nav .links a{
+        font-size: 20px;
+        color: #1977cc;
+        text-decoration: none;
+
+    }
+     nav .icon-burger{
+         display: block;
+     }
+     nav :checked ~ .links{
+         bottom: 0 !important;
+     } 
+
+     nav :checked ~ .icon-burger .line:nth-child(1){
+         transform: translateY(10px)    rotate(225deg);
+     }
+     nav :checked ~ .icon-burger .line:nth-child(3){
+        transform: translateY(-10px)    rotate(-225deg);
+    }
+    nav :checked ~ .icon-burger .line:nth-child(2){
+       opacity: 0;
+    }
+}
+@media screen  and (max-width:426px){
+    .card p{
+        font-size: 14px;
+        padding: 20px;
+        line-height: 22px;
+    }
+    .contact_heading {
+        text-align: center;
+        color: black;
+        /* margin-top: 100px; */
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 26px;
+        padding-top: 20px;
+    }
+}
