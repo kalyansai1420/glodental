@@ -15,7 +15,9 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
-
+.slick-arrow{
+  display: none !important;
+}
 .top-part {
   background-color: #1977cc;
   display: flex;
@@ -1314,6 +1316,9 @@ footer p {
   .services-1 {
     display: none;
   }
+  .swiper-slide img {
+    margin: 0 auto;
+  }
 
   .mobile-services {
     display: block;
@@ -1323,6 +1328,7 @@ footer p {
   .swiper-container {
     height: fit-content !important;
   }
+  slick-arrow{ display:none !important}
 
   /* ------------------Testimonials------------------- */
   .grid-container {
