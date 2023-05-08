@@ -115,6 +115,8 @@ nav .links li{
      background-color: #1977cc;
      color: #fff;
     padding: 1rem;
+      border-radius: 10px;
+
  }
  nav .links li .whatsapp:hover{
     opacity: 0.8;

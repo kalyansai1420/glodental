@@ -308,6 +308,7 @@ nav .links li .whatsapp {
   background-color: #1977cc;
   color: #fff;
   padding: 1rem;
+  border-radius: 10px;
 }
 
 nav .links li .whatsapp:hover {
@@ -389,7 +390,7 @@ nav .icon-burger .line {
   display: inline-block;
   padding: 12px 35px;
   margin-top: 30px;
-  border-radius: 50px;
+  border-radius: 10px;
   transition: 0.5s;
   color: #fff;
   background: #1977cc;
@@ -490,7 +491,7 @@ nav .icon-burger .line {
   display: inline-block;
   padding: 12px 35px;
   margin-top: 30px;
-  border-radius: 50px;
+  border-radius: 10px;
   transition: 0.5s;
   color: #fff;
   background: #1977cc;
